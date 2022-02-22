@@ -60,9 +60,12 @@ namespace UnitTest.Test
 
             //Assert.IsAssignableFrom<Object>(2);
 
-            string variable = null;
-            Assert.Null(variable);
-            Assert.NotNull(variable);
+            //string variable = null;
+            //Assert.Null(variable);
+            //Assert.NotNull(variable);
+
+            Assert.Equal<int>(2, 2);
+            Assert.NotEqual<int>(2, 2);
         }
     }
 }
