@@ -1,4 +1,5 @@
-﻿using UnitTest.App;
+﻿using System.Collections.Generic;
+using UnitTest.App;
 using Xunit;
 
 namespace UnitTest.Test
@@ -8,17 +9,24 @@ namespace UnitTest.Test
         [Fact]
         public void AddTest()
         {
-            //Arrange
+            ////Arrange
 
-            int a = 5;
-            int b = 20;
-            var calculator = new Calculator();
+            //int a = 5;
+            //int b = 20;
+            //var calculator = new Calculator();
 
-            //Act
-            var total = calculator.add(a, b);
+            ////Act
+            //var total = calculator.add(a, b);
 
-            //Assert
-            Assert.Equal<int>(25, total);
+            ////Assert
+            //Assert.Equal<int>(25, total);
+
+            //Assert.Contains("Ehlullah", "Ehlullah Karakurt");
+            //Assert.DoesNotContain("ehlkara", "Ehlullah Karakurt");
+
+            var names = new List<string>() { "Ehlullah", "ehlkara", "Mustafa" };
+
+            Assert.Contains(names, x => x == "Ömer");
         }
     }
 }
