@@ -32,7 +32,12 @@ namespace UnitTest.Test
 
             //Assert.False(5 < 2);
 
-            Assert.True("".GetType() == typeof(string));
+            //Assert.True("".GetType() == typeof(string));
+
+            var regEx = "^dog";
+
+            //Assert.Matches(regEx, "ehlkara dog");
+            Assert.DoesNotMatch(regEx, "ehlkara dog");
         }
     }
 }
