@@ -24,9 +24,15 @@ namespace UnitTest.Test
             //Assert.Contains("Ehlullah", "Ehlullah Karakurt");
             //Assert.DoesNotContain("ehlkara", "Ehlullah Karakurt");
 
-            var names = new List<string>() { "Ehlullah", "ehlkara", "Mustafa" };
+            //var names = new List<string>() { "Ehlullah", "ehlkara", "Mustafa" };
 
-            Assert.Contains(names, x => x == "Ömer");
+            //Assert.Contains(names, x => x == "Ömer");
+
+            //Assert.True(5 > 2);
+
+            //Assert.False(5 < 2);
+
+            Assert.True("".GetType() == typeof(string));
         }
     }
 }
