@@ -56,9 +56,13 @@ namespace UnitTest.Test
             //Assert.IsType<string>("ehlkara");
             //Assert.IsNotType<int>("ehlkara");
 
-            Assert.IsAssignableFrom<IEnumerable<string>>(new List<string>());
+            //Assert.IsAssignableFrom<IEnumerable<string>>(new List<string>());
 
-            Assert.IsAssignableFrom<Object>(2);
+            //Assert.IsAssignableFrom<Object>(2);
+
+            string variable = null;
+            Assert.Null(variable);
+            Assert.NotNull(variable);
         }
     }
 }
