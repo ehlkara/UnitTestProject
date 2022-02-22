@@ -10,17 +10,17 @@ namespace UnitTest.Test
         [Fact]
         public void AddTest()
         {
-            ////Arrange
+            //Arrange
 
-            //int a = 5;
-            //int b = 20;
-            //var calculator = new Calculator();
+            int a = 5;
+            int b = 20;
+            var calculator = new Calculator();
 
-            ////Act
-            //var total = calculator.add(a, b);
+            //Act
+            var total = calculator.add(a, b);
 
-            ////Assert
-            //Assert.Equal<int>(25, total);
+            //Assert
+            Assert.Equal<int>(25, total);
 
             //Assert.Contains("Ehlullah", "Ehlullah Karakurt");
             //Assert.DoesNotContain("ehlkara", "Ehlullah Karakurt");
@@ -64,8 +64,23 @@ namespace UnitTest.Test
             //Assert.Null(variable);
             //Assert.NotNull(variable);
 
-            Assert.Equal<int>(2, 2);
-            Assert.NotEqual<int>(2, 2);
+            //Assert.Equal<int>(2, 2);
+            //Assert.NotEqual<int>(2, 2);
+        }
+
+        [Theory]
+        [InlineData(2,5,7)]
+        [InlineData(2, 10, 12)]
+        public void AddTest2(int a,int b, int expectedTotal)
+        {
+            //Arrange
+            var calculator = new Calculator();
+
+            //Act
+            var actualTotal = calculator.add(a, b);
+
+            //Assert
+            Assert.Equal(expectedTotal, actualTotal);
         }
     }
 }
