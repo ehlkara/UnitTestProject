@@ -34,10 +34,13 @@ namespace UnitTest.Test
 
             //Assert.True("".GetType() == typeof(string));
 
-            var regEx = "^dog";
+            //var regEx = "^dog";
 
             //Assert.Matches(regEx, "ehlkara dog");
-            Assert.DoesNotMatch(regEx, "ehlkara dog");
+            //Assert.DoesNotMatch(regEx, "ehlkara dog");
+
+            Assert.StartsWith("Unit", "Unit testing");
+            Assert.EndsWith("testing", "Unit testing");
         }
     }
 }
