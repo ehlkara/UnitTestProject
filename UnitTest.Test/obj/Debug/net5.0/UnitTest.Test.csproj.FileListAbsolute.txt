@@ -98,3 +98,6 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\ref\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.genruntimeconfig.cache
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.pdb

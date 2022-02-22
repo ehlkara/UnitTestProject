@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "UnitTest.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/UnitTest.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitTest.App.dll": {}
+        }
       }
     }
   },
@@ -5906,11 +5916,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "UnitTest.App/1.0.0": {
+      "type": "project",
+      "path": "../UnitTest.App/UnitTest.App.csproj",
+      "msbuildProject": "../UnitTest.App/UnitTest.App.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "UnitTest.App >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -5950,7 +5966,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\UnitTestProject\\UnitTest.App\\UnitTest.App.csproj": {
+              "projectPath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\UnitTestProject\\UnitTest.App\\UnitTest.App.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
