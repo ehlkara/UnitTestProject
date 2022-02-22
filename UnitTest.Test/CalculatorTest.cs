@@ -7,6 +7,13 @@ namespace UnitTest.Test
 {
     public class CalculatorTest
     {
+        public Calculator calculator { get; set; }
+
+        public CalculatorTest()
+        {
+            this.calculator = new Calculator();
+        }
+
         [Fact]
         public void AddTest()
         {
@@ -14,7 +21,6 @@ namespace UnitTest.Test
 
             int a = 5;
             int b = 20;
-            var calculator = new Calculator();
 
             //Act
             var total = calculator.add(a, b);
@@ -73,9 +79,6 @@ namespace UnitTest.Test
         [InlineData(2, 10, 12)]
         public void AddTest2(int a,int b, int expectedTotal)
         {
-            //Arrange
-            var calculator = new Calculator();
-
             //Act
             var actualTotal = calculator.add(a, b);
 
