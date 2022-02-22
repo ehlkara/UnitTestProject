@@ -17,16 +17,16 @@ namespace UnitTest.Test
         [Fact]
         public void AddTest()
         {
-            //Arrange
+            ////Arrange
 
-            int a = 5;
-            int b = 20;
+            //int a = 5;
+            //int b = 20;
 
-            //Act
-            var total = calculator.add(a, b);
+            ////Act
+            //var total = calculator.add(a, b);
 
-            //Assert
-            Assert.Equal<int>(25, total);
+            ////Assert
+            //Assert.Equal<int>(25, total);
 
             //Assert.Contains("Ehlullah", "Ehlullah Karakurt");
             //Assert.DoesNotContain("ehlkara", "Ehlullah Karakurt");
@@ -77,7 +77,19 @@ namespace UnitTest.Test
         [Theory]
         [InlineData(2,5,7)]
         [InlineData(2, 10, 12)]
-        public void AddTest2(int a,int b, int expectedTotal)
+        public void Add_simpleValues_ReturnValue(int a,int b, int expectedTotal)
+        {
+            //Act
+            var actualTotal = calculator.add(a, b);
+
+            //Assert
+            Assert.Equal(expectedTotal, actualTotal);
+        }
+
+        [Theory]
+        [InlineData(0, 5, 0)]
+        [InlineData(10, 0, 0)]
+        public void Add_zeroValues_ReturnZeroValue(int a, int b, int expectedTotal)
         {
             //Act
             var actualTotal = calculator.add(a, b);
