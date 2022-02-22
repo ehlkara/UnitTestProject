@@ -39,8 +39,12 @@ namespace UnitTest.Test
             //Assert.Matches(regEx, "ehlkara dog");
             //Assert.DoesNotMatch(regEx, "ehlkara dog");
 
-            Assert.StartsWith("Unit", "Unit testing");
-            Assert.EndsWith("testing", "Unit testing");
+            //Assert.StartsWith("Unit", "Unit testing");
+            //Assert.EndsWith("testing", "Unit testing");
+
+            Assert.Empty(new List<string>() { "ehlkara" });
+            Assert.NotEmpty(new List<string>() { "ehlkara" });
+
         }
     }
 }
