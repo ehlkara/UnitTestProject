@@ -49,8 +49,11 @@ namespace UnitTest.Test
 
             //Assert.NotInRange(10, 2, 20);
 
-            Assert.Single<int>(new List<int>() { 1, 2, 3 });
-            Assert.Single(new List<string>() { "ehlkara" });
+            //Assert.Single<int>(new List<int>() { 1, 2, 3 });
+            //Assert.Single(new List<string>() { "ehlkara" });
+
+            Assert.IsType<string>("ehlkara");
+            Assert.IsNotType<int>("ehlkara");
 
         }
     }
