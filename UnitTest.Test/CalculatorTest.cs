@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnitTest.App;
 using Xunit;
 
@@ -52,9 +53,12 @@ namespace UnitTest.Test
             //Assert.Single<int>(new List<int>() { 1, 2, 3 });
             //Assert.Single(new List<string>() { "ehlkara" });
 
-            Assert.IsType<string>("ehlkara");
-            Assert.IsNotType<int>("ehlkara");
+            //Assert.IsType<string>("ehlkara");
+            //Assert.IsNotType<int>("ehlkara");
 
+            Assert.IsAssignableFrom<IEnumerable<string>>(new List<string>());
+
+            Assert.IsAssignableFrom<Object>(2);
         }
     }
 }
