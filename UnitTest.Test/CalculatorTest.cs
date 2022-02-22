@@ -42,8 +42,12 @@ namespace UnitTest.Test
             //Assert.StartsWith("Unit", "Unit testing");
             //Assert.EndsWith("testing", "Unit testing");
 
-            Assert.Empty(new List<string>() { "ehlkara" });
-            Assert.NotEmpty(new List<string>() { "ehlkara" });
+            //Assert.Empty(new List<string>() { "ehlkara" });
+            //Assert.NotEmpty(new List<string>() { "ehlkara" });
+
+            Assert.InRange(10, 2, 20);
+
+            Assert.NotInRange(10, 2, 20);
 
         }
     }
