@@ -11,7 +11,7 @@ namespace UnitTest.Test
 
         public CalculatorTest()
         {
-            this.calculator = new Calculator();
+            this.calculator = null;
         }
 
         [Fact]
