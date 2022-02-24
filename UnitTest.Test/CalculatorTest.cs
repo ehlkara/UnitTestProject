@@ -109,9 +109,16 @@ namespace UnitTest.Test
         [InlineData(3, 5, 15)]
         public void Multip_simpleValues_ReturnsMultipleValue(int a, int b, int expectedValue)
         {
-            mymock.Setup(x => x.multip(a, b)).Returns(expectedValue);
+            int actualMultip = 0;
+            mymock.Setup(x => x.multip(It.IsAny<int>(), It.IsAny<int>())).Callback<int, int>((x, y) => actualMultip = x * y);
 
-            Assert.Equal(15, calculator.multip(a, b));
+            calculator.multip(a, b);
+
+            Assert.Equal(expectedValue, actualMultip);
+
+            calculator.multip(5, 20);
+
+            Assert.Equal(100, actualMultip);
         }
 
         [Theory]
