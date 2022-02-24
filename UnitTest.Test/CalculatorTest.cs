@@ -90,7 +90,7 @@ namespace UnitTest.Test
             //Assert
             Assert.Equal(expectedTotal, actualTotal);
 
-            mymock.Verify(x => x.add(a, b), Times.AtLeast(2));
+            mymock.Verify(x => x.add(a, b), Times.Once);
         }
 
         [Theory]
@@ -112,6 +112,17 @@ namespace UnitTest.Test
             mymock.Setup(x => x.multip(a, b)).Returns(expectedValue);
 
             Assert.Equal(15, calculator.multip(a, b));
+        }
+
+        [Theory]
+        [InlineData(0, 5)]
+        public void Multip_ZeroValue_ReturnsException(int a, int b)
+        {
+            mymock.Setup(x => x.multip(a, b)).Throws(new Exception("a is not equal to zero"));
+
+            Exception exception = Assert.Throws<Exception>(() => calculator.multip(a, b));
+
+            Assert.Equal("a is not equal to zero", exception.Message);
         }
     }
 }
