@@ -89,6 +89,8 @@ namespace UnitTest.Test
 
             //Assert
             Assert.Equal(expectedTotal, actualTotal);
+
+            mymock.Verify(x => x.add(a, b), Times.AtLeast(2));
         }
 
         [Theory]
