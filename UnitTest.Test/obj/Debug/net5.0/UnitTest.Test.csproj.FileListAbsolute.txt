@@ -1,3 +1,4 @@
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\testhost.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\testhost.exe
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -10,6 +11,7 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\ref\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.pdb
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -17,6 +19,7 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Moq.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\NuGet.Frameworks.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\xunit.abstractions.dll
@@ -88,6 +91,8 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.csproj.AssemblyReference.cache
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.AssemblyInfoInputs.cache
@@ -98,8 +103,3 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\ref\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.genruntimeconfig.cache
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.dll
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.App.pdb
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Castle.Core.dll
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Moq.dll
