@@ -22,7 +22,10 @@ namespace UnitTest.Web
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<UnitTestDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SqlConStr")));
+            services.AddDbContext<UnitTestDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("SqlServer"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
