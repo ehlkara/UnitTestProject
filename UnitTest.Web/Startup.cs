@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using UnitTest.Web.Models;
+using UnitTest.Web.Repository;
 
 namespace UnitTest.Web
 {
@@ -20,6 +21,8 @@ namespace UnitTest.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
             services.AddControllersWithViews();
 
             services.AddDbContext<UnitTestDbContext>(options =>
