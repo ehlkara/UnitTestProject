@@ -147,3 +147,4 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Web\obj\Debug\n
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Web\obj\Debug\net5.0\ref\UnitTest.Web.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Web\obj\Debug\net5.0\UnitTest.Web.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Web\obj\Debug\net5.0\UnitTest.Web.genruntimeconfig.cache
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Web\obj\Debug\net5.0\UnitTest.Web.csproj.AssemblyReference.cache
