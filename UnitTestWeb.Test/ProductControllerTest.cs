@@ -87,5 +87,25 @@ namespace UnitTestWeb.Test
             Assert.Equal(product.Id, resultProduct.Id);
             Assert.Equal(product.Name, resultProduct.Name);
         }
+
+        [Fact]
+        public void Create_ActionExecutes_ReturnView()
+        {
+            var result = _controller.Create();
+
+            Assert.IsType<ViewResult>(result);
+        }
+
+        [Fact]
+        public async void Create_InValidModelState_ReturnView()
+        {
+            _controller.ModelState.AddModelError("Name", "Name is required");
+
+            var result = await _controller.Create(products.First());
+
+            var viewResult = Assert.IsType<ViewResult>(result);
+
+            Assert.IsType<Product>(viewResult.Model);
+        }
     }
 }
