@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnitTest.Web.Controllers;
 using UnitTest.Web.Models;
 using UnitTest.Web.Repository;
@@ -58,6 +55,19 @@ namespace UnitTestWeb.Test
             var redirect = Assert.IsType<RedirectToActionResult>(result);
 
             Assert.Equal("Index", redirect.ActionName);
+        }
+
+        [Fact]
+        public async void Details_IdInvalid_ReturnNotFound()
+        {
+            Product product = null;
+            _mockRepo.Setup(x => x.GetById(0)).ReturnsAsync(product);
+
+            var result = await _controller.Details(0);
+
+            var redirect = Assert.IsType<NotFoundResult>(result);
+
+            Assert.Equal<int>(404, redirect.StatusCode);
         }
     }
 }
