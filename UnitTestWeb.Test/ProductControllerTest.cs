@@ -218,5 +218,18 @@ namespace UnitTestWeb.Test
 
             Assert.Equal("Index", redirect.ActionName);
         }
+
+        [Theory]
+        [InlineData(1)]
+        public void EditPOST_ValidModelState_UpdateMethodExecute(int prodcutId)
+        {
+            var product = products.First(x => x.Id == prodcutId);
+
+            _mockRepo.Setup(repo => repo.Update(product));
+
+            _controller.Edit(prodcutId, product);
+
+            _mockRepo.Verify(repo => repo.Update(It.IsAny<Product>()), Times.Once);
+        }
     }
 }
