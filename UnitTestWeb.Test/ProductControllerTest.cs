@@ -185,5 +185,14 @@ namespace UnitTestWeb.Test
 
             Assert.Equal(product.Name, resultProduct.Name);
         }
+
+        [Theory]
+        [InlineData(1)]
+        public void EditPOST_IdIsNotEqualProduct_ReturnNotFound(int productId)
+        {
+            var result = _controller.Edit(2, products.First(x => x.Id == productId));
+
+            var redirect = Assert.IsType<NotFoundResult>(result);
+        }
     }
 }
