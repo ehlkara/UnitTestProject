@@ -21,7 +21,11 @@ namespace UnitTest.Web.Controllers
             _repository = repository;
         }
 
-
+        [HttpGet("{a}/{b}")]
+        public IActionResult Add(int a, int b)
+        {
+            return Ok(new Helpers.Helper().add(a, b));
+        }
 
         // GET: api/ProductsApi
         [HttpGet]

@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using UnitTest.Web.Controllers;
+using UnitTest.Web.Helpers;
 using UnitTest.Web.Models;
 using UnitTest.Web.Repository;
 using Xunit;
@@ -16,6 +15,7 @@ namespace UnitTestWeb.Test
     {
         private readonly Mock<IRepository<Product>> _mockRepo;
         private readonly ProductsApiController _controller;
+        private readonly Helper _helper;
 
         private List<Product> products;
 
@@ -23,6 +23,7 @@ namespace UnitTestWeb.Test
         {
             _mockRepo = new Mock<IRepository<Product>>();
             _controller = new ProductsApiController(_mockRepo.Object);
+            _helper = new Helper();
 
             products = new List<Product>() { new Product { Id = 1, Name = "Pen", Price = 100, Stock = 50, Color = "Red" }, new Product { Id = 2, Name = "Notebook", Price = 200, Stock = 500, Color = "Blue" } };
         }
@@ -143,6 +144,15 @@ namespace UnitTestWeb.Test
             _mockRepo.Verify(x => x.Delete(product), Times.Once);
 
             Assert.IsType<NoContentResult>(noContentResult.Result);
+        }
+
+        [Theory]
+        [InlineData(4,5,9)]
+        public void Add_SimpleValues_ReturnTotal(int a,int b, int total)
+        {
+            var result = _helper.add(a, b);
+
+            Assert.Equal(total, result);
         }
     }
 }
