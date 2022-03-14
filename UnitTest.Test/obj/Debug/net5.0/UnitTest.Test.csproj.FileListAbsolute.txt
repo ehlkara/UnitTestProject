@@ -9,7 +9,6 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.runtimeconfig.json
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.runtimeconfig.dev.json
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.dll
-C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\ref\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\UnitTest.Test.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -103,3 +102,4 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\ref\UnitTest.Test.dll
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\UnitTest.Test.genruntimeconfig.cache
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTest.Test\obj\Debug\net5.0\refint\UnitTest.Test.dll
