@@ -44,5 +44,26 @@ namespace UnitTestWeb.Test
                 Assert.Equal(newProduct.Name,product.Name);
             }
         }
+
+        [Theory]
+        [InlineData(1)]
+        public async Task DeleteCategory_ExistCategoryId_DeletedAllProducts(int categoryId)
+        {
+            using (var context = new UnitTestDbContext(_contextOptions))
+            {
+                var category = await context.Categories.FindAsync(categoryId);
+
+                context.Categories.Remove(category);
+
+                context.SaveChanges();
+            }
+
+            using (var context = new UnitTestDbContext(_contextOptions))
+            {
+                var products = await context.Products.Where(x=>x.CategoryId==categoryId).ToListAsync();
+                
+                Assert.Empty(products);
+            }
+        }
     }
 }
