@@ -215,3 +215,4 @@ C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTestWeb.Test\obj\Deb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTestWeb.Test\obj\Debug\net5.0\UnitTestWeb.Test.pdb
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTestWeb.Test\obj\Debug\net5.0\UnitTestWeb.Test.genruntimeconfig.cache
 C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTestWeb.Test\obj\Debug\net5.0\refint\UnitTestWeb.Test.dll
+C:\Users\ehlul\OneDrive\Belgeler\GitHub\UnitTestProject\UnitTestWeb.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
