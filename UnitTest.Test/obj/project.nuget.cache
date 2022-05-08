@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1Vy85gUSBm8vu5Byd7ih8pUpnEn/P2EDgRw743VyX7n5crcmGjlXWIIwhGJ8E4eCZPQB4dTftSEgDA8J9jVweQ==",
+  "dgSpecHash": "odQkwxIs0rhWMnzxzhiCgqXiOSniw4bT3zahm+aeq4slY8Emm/RrNsVPfCmdy0dGtdMKnFi5gF2D7rziomF0SA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\UnitTestProject\\UnitTest.Test\\UnitTest.Test.csproj",
   "expectedPackageFiles": [
@@ -106,5 +106,12 @@
     "C:\\Users\\ehlul\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\ehlul\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\ehlul\\OneDrive\\Belgeler\\GitHub\\UnitTestProject\\UnitTest.Test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
